@@ -1,0 +1,22 @@
+{
+  "name": "grunt-init-closure",
+  "version": "0.1.0",
+  "description": "Create a new WebApp files with grunt-init, including Google Closure Tools, Bower package manager, LESS with LESSHAT2 mixins, gjshint, livereloading.",
+  "main": "template.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/slinto/grunt-init-closure.git"
+  },
+  "keywords": [
+    "grunt",
+    "init",
+    "closure",
+    "less",
+    "livereload"
+  ],
+  "author": "Tomas Stankovic <info@slinto.sk>",
+  "license": "MIT"
+}
