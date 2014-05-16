@@ -13,7 +13,7 @@
 exports.description = 'Create a new WebApp including Google Closure Tools.';
 
 exports.notes = 'HELLO! Let\'s build better internet! \nThis is WebApp template ' +
-  'including Google Closure Tools and LESS with LESSHAT2 mixins.';
+  'including Google Closure Tools and LESS with LESSHAT3 mixins.';
 
 exports.after = 'Done! \nHappy Coding!';
 exports.warnOn = '*';
@@ -53,17 +53,17 @@ exports.template = function(grunt, init, done) {
         version: props.version,
         node_version: '>= 0.10.0',
         devDependencies: {
-          'grunt': '~0.4.2',
-          'jit-grunt': '~0.2.0',
-          'grunt-gjslint': '~0.1.4',
-          'grunt-contrib-less': '~0.9.0',
-          'grunt-contrib-copy': '~0.5.0',
-          'grunt-contrib-watch': '~0.5.3',
-          'grunt-closure-tools': '~0.9.2',
-          'grunt-contrib-clean': '~0.5.0',
-          'grunt-contrib-connect': '~0.6.0'
+          "grunt": "^0.4.5",
+          "grunt-closure-tools": "^0.9.6",
+          "grunt-contrib-clean": "^0.5.0",
+          "grunt-contrib-connect": "^0.7.1",
+          "grunt-contrib-copy": "^0.5.0",
+          "grunt-contrib-less": "^0.11.0",
+          "grunt-contrib-watch": "^0.6.1",
+          "grunt-gjslint": "^0.1.4",
+          "jit-grunt": "^0.6.0"
         }
-      }
+      };
 
     // Generate package.json file, used by npm and grunt.
     init.writePackageJSON('package.json', pkg, function(pkg, props) {

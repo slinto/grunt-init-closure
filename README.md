@@ -1,6 +1,6 @@
 # grunt-init-closure
 
-Create a new WebApp files with [grunt-init][], including Google Closure Tools, Bower package manager, LESS with LESSHAT2 mixins, gjshint, livereloading.
+Create a new WebApp files with [grunt-init][], including Google Closure Tools, Bower package manager, LESS with LESSHAT3 mixins, gjshint, livereloading.
 
 [grunt-init]: http://gruntjs.com/project-scaffolding
 
