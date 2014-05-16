@@ -78,7 +78,7 @@ exports.template = function(grunt, init, done) {
       dependencies: {
         'lesshat': 'https://github.com/csshat/lesshat.git',
         'closure-compiler': 'http://dl.google.com/closure-compiler/compiler-latest.zip',
-        'closure-library': 'git+https://code.google.com/p/closure-library/'
+        'closure-library': 'git+https://github.com/google/closure-library/'
       }
     });
 
